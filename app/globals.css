@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Add these to the bottom of app/globals.css */
+
+textarea {
+  color: #111827; /* This dark gray will replace rgb(237, 237, 237) for the text you TYPE */
+}
+
+textarea::placeholder {
+  color: #9ca3af; /* This visible medium gray will be for the hint text */
+}
